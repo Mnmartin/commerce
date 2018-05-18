@@ -1,1 +1,6 @@
 .settings/*
+.classpath
+console.properties
+.project
+commerce.project
+bin/
