@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify -account registration</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>af0724ca-7965-4de8-b09b-b3df29678742</testCaseGuid>
+   <variable>
+      <defaultValue>'Martin'</defaultValue>
+      <description></description>
+      <id>66de954a-d6a7-4c32-98f1-e68493055a58</id>
+      <masked>false</masked>
+      <name>fname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Muhia'</defaultValue>
+      <description></description>
+      <id>9cf81350-89de-42b9-b88d-c4da3cb502af</id>
+      <masked>false</masked>
+      <name>lname</name>
+   </variable>
+   <variable>
+      <defaultValue>'martin.muhia10@gmail.com'</defaultValue>
+      <description></description>
+      <id>4e1bbb10-140f-4eb4-bee8-ed932fb516e0</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'Marto Sacco'</defaultValue>
+      <description></description>
+      <id>146eac7a-d61d-45ea-be08-7a1e61dc6bfb</id>
+      <masked>false</masked>
+      <name>company</name>
+   </variable>
+   <variable>
+      <defaultValue>'martin'</defaultValue>
+      <description></description>
+      <id>68126816-15c1-446a-9411-d9ddce99910d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

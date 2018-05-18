@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Register-login-logout</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-05-18T11:49:19</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>4f38241f-bc41-4d2c-8347-08adc1808578</testSuiteGuid>
+   <testCaseLink>
+      <guid>fa3bc450-a620-4734-a52d-22d5699fcc0b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Registration/Verify -account registration</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>66de954a-d6a7-4c32-98f1-e68493055a58</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9cf81350-89de-42b9-b88d-c4da3cb502af</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4e1bbb10-140f-4eb4-bee8-ed932fb516e0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>146eac7a-d61d-45ea-be08-7a1e61dc6bfb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>68126816-15c1-446a-9411-d9ddce99910d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a5724dde-5737-4bf9-a105-1bbe1700c28a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/verify-login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8f2cedec-bb20-450d-8424-4ffa2ad85522</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ece9176c-2f6f-4a1e-9a14-b07b95eb7cf8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cb2d389f-d172-4bde-a63e-10da87ed3c2c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/logout/Verify-logout</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

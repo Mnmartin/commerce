@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify-proccessing</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e76ee9c3-ba49-48ab-9786-3d4ba4c484db</testCaseGuid>
+   <variable>
+      <defaultValue>'Mombasa'</defaultValue>
+      <description></description>
+      <id>0353284f-47c2-4a24-a41c-e754e0438a2f</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'ungwaro'</defaultValue>
+      <description></description>
+      <id>57660ca8-bf16-47d7-9170-2352d348f93e</id>
+      <masked>false</masked>
+      <name>addres</name>
+   </variable>
+   <variable>
+      <defaultValue>'254'</defaultValue>
+      <description></description>
+      <id>ea05a013-71a1-4d7d-80af-14c3003db1e6</id>
+      <masked>false</masked>
+      <name>zip</name>
+   </variable>
+   <variable>
+      <defaultValue>'0704749871'</defaultValue>
+      <description></description>
+      <id>abe836d8-4db3-4fe0-be3a-494ea6501b54</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register-login-logout" time="175" tests="2" failures="1" errors="0">
+   <testsuite name="Register-login-logout" tests="2" failures="1" errors="0" time="175" timestamp="2018-05-18 11:49:25" hostname="martin - Martin" id="Test Suites/Register-login-logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\martin\\Katalon Studio\\commerce\\Reports\\Register-login-logout\\20180518_114919"/>
+         <property name="logFiles" value="C:\\Users\\martin\\Katalon Studio\\commerce\\Reports\\Register-login-logout\\20180518_114919\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\martin\\Katalon Studio\\commerce\\Reports\\Register-login-logout\\20180518_114919\\1526633537612.png"/>
+         <property name="hostName" value="martin - Martin"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.181"/>
+         <property name="hostAddress" value="192.168.1.109"/>
+         <property name="sessionId" value="ce8130a71a82fa0338668d24fe97503f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Registration/Verify -account registration" classname="Test Cases/Registration/Verify -account registration" status="PASSED">
+         <system-out><![CDATA[2018-05-18 11:49:26 - [TEST_CASE][PASSED] - Test Cases/Registration/Verify -account registration: Test Cases/Registration/Verify -account registration
+
+2018-05-18 11:49:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demo.nopcommerce.com/'
+
+2018-05-18 11:49:49 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demo.nopcommerce.com/'
+
+2018-05-18 11:49:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-18 11:49:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-18 11:49:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/button-top register' is clicked on
+
+2018-05-18 11:50:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/button-top register' is clicked on
+
+2018-05-18 11:50:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/button-radio gender' is clicked on
+
+2018-05-18 11:50:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/button-radio gender' is clicked on
+
+2018-05-18 11:50:00 - [TEST_STEP][PASSED] - setText: Text 'Martin' is set on object 'Object Repository/Registration/input-First name'
+
+2018-05-18 11:50:04 - [MESSAGE][PASSED] - Text 'Martin' is set on object 'Object Repository/Registration/input-First name'
+
+2018-05-18 11:50:04 - [TEST_STEP][PASSED] - setText: Text 'Muhia' is set on object 'Object Repository/Registration/input last name'
+
+2018-05-18 11:50:04 - [MESSAGE][PASSED] - Text 'Muhia' is set on object 'Object Repository/Registration/input last name'
+
+2018-05-18 11:50:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/input-Date of birth' is clicked on
+
+2018-05-18 11:50:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/input-Date of birth' is clicked on
+
+2018-05-18 11:50:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/input-month' is clicked on
+
+2018-05-18 11:50:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/input-month' is clicked on
+
+2018-05-18 11:50:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/input-year' is clicked on
+
+2018-05-18 11:50:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/input-year' is clicked on
+
+2018-05-18 11:50:06 - [TEST_STEP][PASSED] - setText: Text 'martin.muhia10@gmail.com' is set on object 'Object Repository/Registration/input- Email'
+
+2018-05-18 11:50:07 - [MESSAGE][PASSED] - Text 'martin.muhia10@gmail.com' is set on object 'Object Repository/Registration/input- Email'
+
+2018-05-18 11:50:07 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-18 11:50:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-18 11:50:09 - [TEST_STEP][PASSED] - setText: Text 'Marto Sacco' is set on object 'Object Repository/Registration/input company name'
+
+2018-05-18 11:50:12 - [MESSAGE][PASSED] - Text 'Marto Sacco' is set on object 'Object Repository/Registration/input company name'
+
+2018-05-18 11:50:12 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-18 11:50:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-18 11:50:14 - [TEST_STEP][PASSED] - setText: Text 'martin' is set on object 'Object Repository/Registration/input password'
+
+2018-05-18 11:50:15 - [MESSAGE][PASSED] - Text 'martin' is set on object 'Object Repository/Registration/input password'
+
+2018-05-18 11:50:15 - [TEST_STEP][PASSED] - setText: Text 'martin' is set on object 'Object Repository/Registration/input confirm password'
+
+2018-05-18 11:50:16 - [MESSAGE][PASSED] - Text 'martin' is set on object 'Object Repository/Registration/input confirm password'
+
+2018-05-18 11:50:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/button-register' is clicked on
+
+2018-05-18 11:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/button-register' is clicked on
+
+2018-05-18 11:50:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Registration/verify registration' is present
+
+2018-05-18 11:50:18 - [MESSAGE][PASSED] - Object 'Object Repository/Registration/verify registration' is present
+
+2018-05-18 11:50:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/button continue' is clicked on
+
+2018-05-18 11:50:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/button continue' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/verify-login" classname="Test Cases/Login/verify-login" status="PASSED">
+         <system-out><![CDATA[2018-05-18 11:50:22 - [TEST_CASE][PASSED] - Test Cases/Login/verify-login: Test Cases/Login/verify-login
+
+2018-05-18 11:50:23 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demo.nopcommerce.com/'
+
+2018-05-18 11:50:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-18 11:50:50 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demo.nopcommerce.com/'
+
+2018-05-18 11:50:50 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-18 11:50:51 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-18 11:50:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button-login' is clicked on
+
+2018-05-18 11:51:02 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button-login' is clicked on
+
+2018-05-18 11:51:02 - [TEST_STEP][PASSED] - setText: Text 'martin.muhia10@gmail.com' is set on object 'Object Repository/login/input-login Email'
+
+2018-05-18 11:51:04 - [MESSAGE][PASSED] - Text 'martin.muhia10@gmail.com' is set on object 'Object Repository/login/input-login Email'
+
+2018-05-18 11:51:04 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-18 11:51:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-18 11:51:06 - [TEST_STEP][PASSED] - setText: Text 'martin' is set on object 'Object Repository/login/input login-password'
+
+2018-05-18 11:51:08 - [MESSAGE][PASSED] - Text 'martin' is set on object 'Object Repository/login/input login-password'
+
+2018-05-18 11:51:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button-log in' is clicked on
+
+2018-05-18 11:51:10 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button-log in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/logout/Verify-logout" classname="Test Cases/logout/Verify-logout" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/logout/button-logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/logout/button-logout' located by 'By.xpath: //a[@href='/logout']' not found)"/>
+         <system-out><![CDATA[2018-05-18 11:51:10 - [TEST_CASE][FAILED] - Test Cases/logout/Verify-logout: Test Cases/logout/Verify-logout FAILED because (of) Unable to click on object 'Object Repository/logout/button-logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/logout/button-logout' located by 'By.xpath: //a[@href='/logout']' not found)
+
+2018-05-18 11:51:11 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/verify-login' successfully
+
+2018-05-18 11:51:11 - [TEST_CASE][PASSED] - Test Cases/Login/verify-login: Test Cases/Login/verify-login
+
+2018-05-18 11:51:11 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demo.nopcommerce.com/'
+
+2018-05-18 11:51:11 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-18 11:51:27 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demo.nopcommerce.com/'
+
+2018-05-18 11:51:27 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-05-18 11:51:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-05-18 11:51:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button-login' is clicked on
+
+2018-05-18 11:51:32 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button-login' is clicked on
+
+2018-05-18 11:51:32 - [TEST_STEP][PASSED] - setText: Text 'martin.muhia@ymail.com' is set on object 'Object Repository/login/input-login Email'
+
+2018-05-18 11:51:33 - [MESSAGE][PASSED] - Text 'martin.muhia@ymail.com' is set on object 'Object Repository/login/input-login Email'
+
+2018-05-18 11:51:33 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-05-18 11:51:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-05-18 11:51:35 - [TEST_STEP][PASSED] - setText: Text 'martin' is set on object 'Object Repository/login/input login-password'
+
+2018-05-18 11:51:35 - [MESSAGE][PASSED] - Text 'martin' is set on object 'Object Repository/login/input login-password'
+
+2018-05-18 11:51:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button-log in' is clicked on
+
+2018-05-18 11:51:37 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button-log in' is clicked on
+
+2018-05-18 11:51:37 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/verify-login' successfully
+
+2018-05-18 11:51:37 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-18 11:51:42 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-18 11:51:42 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/logout/button-logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/logout/button-logout' located by 'By.xpath: //a[@href='/logout']' not found)
+
+2018-05-18 11:52:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/logout/button-logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/logout/button-logout' located by 'By.xpath: //a[@href='/logout']' not found)
+[[ATTACHMENT|C:\\Users\\martin\\Katalon Studio\\commerce\\Reports\\Register-login-logout\\20180518_114919\\1526633537612.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-18 11:51:10 - [TEST_CASE][FAILED] - Test Cases/logout/Verify-logout: Test Cases/logout/Verify-logout FAILED because (of) Unable to click on object 'Object Repository/logout/button-logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/logout/button-logout' located by 'By.xpath: //a[@href='/logout']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-18 11:49:25 - [TEST_SUITE][FAILED] - Register-login-logout: Test Cases/logout/Verify-logout FAILED because (of) Unable to click on object 'Object Repository/logout/button-logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/logout/button-logout' located by 'By.xpath: //a[@href='/logout']' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-18 11:49:25 - [TEST_SUITE][FAILED] - Register-login-logout: Test Cases/logout/Verify-logout FAILED because (of) Unable to click on object 'Object Repository/logout/button-logout' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/logout/button-logout' located by 'By.xpath: //a[@href='/logout']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

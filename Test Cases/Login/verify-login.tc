@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify-login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11a8acd1-cdfd-48d4-a1ac-483acae84731</testCaseGuid>
+   <variable>
+      <defaultValue>'martin.muhia10@gmail.com'</defaultValue>
+      <description></description>
+      <id>8f2cedec-bb20-450d-8424-4ffa2ad85522</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'martin'</defaultValue>
+      <description></description>
+      <id>ece9176c-2f6f-4a1e-9a14-b07b95eb7cf8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

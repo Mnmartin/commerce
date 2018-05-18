@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>verify-add nokia</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bdd81d03-1f7e-4401-988e-e1f67f4dd870</testCaseGuid>
+   <variable>
+      <defaultValue>'NOKIA LUMIA 1020'</defaultValue>
+      <description></description>
+      <id>873e087e-258a-4fe4-a8ba-327ef2d71f36</id>
+      <masked>false</masked>
+      <name>nokia</name>
+   </variable>
+</TestCaseEntity>
