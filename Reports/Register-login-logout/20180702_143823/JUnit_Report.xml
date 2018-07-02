@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Register-login-logout" time="87" tests="2" failures="1" errors="0">
+   <testsuite name="Register-login-logout" tests="2" failures="1" errors="0" time="87" timestamp="2018-07-02 14:38:30" hostname="Martin - 192.168.56.1" id="Test Suites/Register-login-logout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Martin\\Katalon Studio\\commerce\\Reports\\Register-login-logout\\20180702_143823"/>
+         <property name="logFiles" value="C:\\Users\\Martin\\Katalon Studio\\commerce\\Reports\\Register-login-logout\\20180702_143823\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Martin\\Katalon Studio\\commerce\\Reports\\Register-login-logout\\20180702_143823\\1530531547190.png, C:\\Users\\Martin\\Katalon Studio\\commerce\\Reports\\Register-login-logout\\20180702_143823\\1530531547602.png"/>
+         <property name="hostName" value="Martin - 192.168.56.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="a6ac3a66e9d27fcfe2ddd565ed792d6a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Registration/Verify -account registration" classname="Test Cases/Registration/Verify -account registration" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/Registration/verify registration' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Registration/verify registration' located by 'By.xpath: .//*[@class='result']' not found)"/>
+         <system-out><![CDATA[2018-07-02 14:38:31 - [TEST_CASE][FAILED] - Test Cases/Registration/Verify -account registration: Test Cases/Registration/Verify -account registration FAILED because (of) Unable to verify object 'Object Repository/Registration/verify registration' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Registration/verify registration' located by 'By.xpath: .//*[@class='result']' not found)
+
+2018-07-02 14:38:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demo.nopcommerce.com/'
+
+2018-07-02 14:38:49 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demo.nopcommerce.com/'
+
+2018-07-02 14:38:49 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-02 14:38:50 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-02 14:38:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/button-top register' is clicked on
+
+2018-07-02 14:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/button-top register' is clicked on
+
+2018-07-02 14:38:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/button-radio gender' is clicked on
+
+2018-07-02 14:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/button-radio gender' is clicked on
+
+2018-07-02 14:38:54 - [TEST_STEP][PASSED] - setText: Text 'Martin' is set on object 'Object Repository/Registration/input-First name'
+
+2018-07-02 14:38:55 - [MESSAGE][PASSED] - Text 'Martin' is set on object 'Object Repository/Registration/input-First name'
+
+2018-07-02 14:38:55 - [TEST_STEP][PASSED] - setText: Text 'Muhia' is set on object 'Object Repository/Registration/input last name'
+
+2018-07-02 14:38:55 - [MESSAGE][PASSED] - Text 'Muhia' is set on object 'Object Repository/Registration/input last name'
+
+2018-07-02 14:38:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/input-Date of birth' is clicked on
+
+2018-07-02 14:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/input-Date of birth' is clicked on
+
+2018-07-02 14:38:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/input-month' is clicked on
+
+2018-07-02 14:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/input-month' is clicked on
+
+2018-07-02 14:38:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/input-year' is clicked on
+
+2018-07-02 14:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/input-year' is clicked on
+
+2018-07-02 14:38:56 - [TEST_STEP][PASSED] - setText: Text 'martin.muhia10@gmail.com' is set on object 'Object Repository/Registration/input- Email'
+
+2018-07-02 14:38:57 - [MESSAGE][PASSED] - Text 'martin.muhia10@gmail.com' is set on object 'Object Repository/Registration/input- Email'
+
+2018-07-02 14:38:57 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-02 14:38:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-02 14:38:59 - [TEST_STEP][PASSED] - setText: Text 'Marto Sacco' is set on object 'Object Repository/Registration/input company name'
+
+2018-07-02 14:38:59 - [MESSAGE][PASSED] - Text 'Marto Sacco' is set on object 'Object Repository/Registration/input company name'
+
+2018-07-02 14:38:59 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-02 14:39:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-02 14:39:01 - [TEST_STEP][PASSED] - setText: Text 'martin' is set on object 'Object Repository/Registration/input password'
+
+2018-07-02 14:39:02 - [MESSAGE][PASSED] - Text 'martin' is set on object 'Object Repository/Registration/input password'
+
+2018-07-02 14:39:02 - [TEST_STEP][PASSED] - setText: Text 'martin' is set on object 'Object Repository/Registration/input confirm password'
+
+2018-07-02 14:39:02 - [MESSAGE][PASSED] - Text 'martin' is set on object 'Object Repository/Registration/input confirm password'
+
+2018-07-02 14:39:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Registration/button-register' is clicked on
+
+2018-07-02 14:39:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Registration/button-register' is clicked on
+
+2018-07-02 14:39:05 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/Registration/verify registration' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Registration/verify registration' located by 'By.xpath: .//*[@class='result']' not found)
+
+2018-07-02 14:39:07 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Registration/verify registration' located by 'By.xpath: .//*[@class='result']' not found
+[[ATTACHMENT|C:\\Users\\Martin\\Katalon Studio\\commerce\\Reports\\Register-login-logout\\20180702_143823\\1530531547190.png]]
+
+2018-07-02 14:39:07 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Registration/verify registration' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Registration/verify registration' located by 'By.xpath: .//*[@class='result']' not found)
+[[ATTACHMENT|C:\\Users\\Martin\\Katalon Studio\\commerce\\Reports\\Register-login-logout\\20180702_143823\\1530531547602.png]]]]></system-out>
+         <system-err><![CDATA[2018-07-02 14:38:31 - [TEST_CASE][FAILED] - Test Cases/Registration/Verify -account registration: Test Cases/Registration/Verify -account registration FAILED because (of) Unable to verify object 'Object Repository/Registration/verify registration' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Registration/verify registration' located by 'By.xpath: .//*[@class='result']' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/verify-login" classname="Test Cases/Login/verify-login" status="PASSED">
+         <system-out><![CDATA[2018-07-02 14:39:08 - [TEST_CASE][PASSED] - Test Cases/Login/verify-login: Test Cases/Login/verify-login
+
+2018-07-02 14:39:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demo.nopcommerce.com/'
+
+2018-07-02 14:39:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-02 14:39:19 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demo.nopcommerce.com/'
+
+2018-07-02 14:39:19 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-02 14:39:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-02 14:39:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button-login' is clicked on
+
+2018-07-02 14:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button-login' is clicked on
+
+2018-07-02 14:39:22 - [TEST_STEP][PASSED] - setText: Text 'martin.muhia10@gmail.com' is set on object 'Object Repository/login/input-login Email'
+
+2018-07-02 14:39:22 - [MESSAGE][PASSED] - Text 'martin.muhia10@gmail.com' is set on object 'Object Repository/login/input-login Email'
+
+2018-07-02 14:39:22 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-02 14:39:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-02 14:39:24 - [TEST_STEP][PASSED] - setText: Text 'martin' is set on object 'Object Repository/login/input login-password'
+
+2018-07-02 14:39:24 - [MESSAGE][PASSED] - Text 'martin' is set on object 'Object Repository/login/input login-password'
+
+2018-07-02 14:39:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button-log in' is clicked on
+
+2018-07-02 14:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button-log in' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/logout/Verify-logout" classname="Test Cases/logout/Verify-logout" status="PASSED">
+         <system-out><![CDATA[2018-07-02 14:39:26 - [TEST_CASE][PASSED] - Test Cases/logout/Verify-logout: Test Cases/logout/Verify-logout
+
+2018-07-02 14:39:26 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Login/verify-login' successfully
+
+2018-07-02 14:39:26 - [TEST_CASE][PASSED] - Test Cases/Login/verify-login: Test Cases/Login/verify-login
+
+2018-07-02 14:39:26 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://demo.nopcommerce.com/'
+
+2018-07-02 14:39:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-07-02 14:39:38 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demo.nopcommerce.com/'
+
+2018-07-02 14:39:38 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-07-02 14:39:39 - [MESSAGE][PASSED] - Current window maximized
+
+2018-07-02 14:39:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button-login' is clicked on
+
+2018-07-02 14:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button-login' is clicked on
+
+2018-07-02 14:39:40 - [TEST_STEP][PASSED] - setText: Text 'martin.muhia10@gmail.com' is set on object 'Object Repository/login/input-login Email'
+
+2018-07-02 14:39:41 - [MESSAGE][PASSED] - Text 'martin.muhia10@gmail.com' is set on object 'Object Repository/login/input-login Email'
+
+2018-07-02 14:39:41 - [TEST_STEP][PASSED] - delay: Delayed 2 second(s)
+
+2018-07-02 14:39:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2018-07-02 14:39:43 - [TEST_STEP][PASSED] - setText: Text 'martin' is set on object 'Object Repository/login/input login-password'
+
+2018-07-02 14:39:43 - [MESSAGE][PASSED] - Text 'martin' is set on object 'Object Repository/login/input login-password'
+
+2018-07-02 14:39:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/login/button-log in' is clicked on
+
+2018-07-02 14:39:45 - [MESSAGE][PASSED] - Object: 'Object Repository/login/button-log in' is clicked on
+
+2018-07-02 14:39:45 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Login/verify-login' successfully
+
+2018-07-02 14:39:45 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-07-02 14:39:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-07-02 14:39:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/logout/button-logout' is clicked on
+
+2018-07-02 14:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/logout/button-logout' is clicked on
+
+2018-07-02 14:39:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-07-02 14:39:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-07-02 14:39:55 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-07-02 14:39:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-02 14:38:30 - [TEST_SUITE][FAILED] - Register-login-logout: Test Cases/Registration/Verify -account registration FAILED because (of) Unable to verify object 'Object Repository/Registration/verify registration' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Registration/verify registration' located by 'By.xpath: .//*[@class='result']' not found)]]></system-out>
+      <system-err><![CDATA[2018-07-02 14:38:30 - [TEST_SUITE][FAILED] - Register-login-logout: Test Cases/Registration/Verify -account registration FAILED because (of) Unable to verify object 'Object Repository/Registration/verify registration' is present (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Registration/verify registration' located by 'By.xpath: .//*[@class='result']' not found)]]></system-err>
+   </testsuite>
+</testsuites>

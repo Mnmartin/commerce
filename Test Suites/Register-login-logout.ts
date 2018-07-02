@@ -4,7 +4,7 @@
    <name>Register-login-logout</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-18T11:49:19</lastRun>
+   <lastRun>2018-07-02T14:38:23</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

@@ -4,6 +4,7 @@
    <name>add-remove cart</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-05-21T11:09:36</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
